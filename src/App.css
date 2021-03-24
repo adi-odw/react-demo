@@ -1,0 +1,11 @@
+ .navbar h1 {
+    color: #ffffff;
+}
+.nav-link{
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+}
+.nav-link li{
+    padding: 10px;
+}
