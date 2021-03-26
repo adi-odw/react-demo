@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 function App() {
   return (
 
+    // TODO Need to create a 404 Page and route all bogus path there.
     <Router>
       <div className="App">
         <Nav />

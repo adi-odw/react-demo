@@ -8,11 +8,12 @@ export default class Product extends React.Component {
         product: []
     };
 
+    // TODO - Need to load additional products in batches of five when scroll - let it be same 
     async componentDidMount() {
-        const url = "https://fakestoreapi.com/products?limit=5'";
+        const url = "https://fakestoreapi.com/products?limit=5";
         const response = await fetch(url);
         const data = await response.json();
-        //console.log(data);
+        console.log(data.length);
         this.setState({ product: data, loading: false });
 
     }
