@@ -3,8 +3,10 @@
 }
 .nav-link{
     color: #ffffff;
-    display: flex;
+    display: flex !important;
     list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 .nav-link li{
     padding: 10px;
